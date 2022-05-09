@@ -22,10 +22,11 @@ import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 
 
-export{
+export {
   bg,
   chef,
   G,
+  gericht,
   gallery01,
   gallery02,
   gallery03,
@@ -44,5 +45,4 @@ export{
   award05,
   sign,
   quote,
-  gericht,
 };
