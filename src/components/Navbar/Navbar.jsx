@@ -10,7 +10,7 @@ const Navbar = () => {
     const [ toggleMenu, setToggleMenu ] = useState(false);
 
     return(
-        <navbar className="app__navbar">
+        <nav className="app__navbar">
             <div className="app__navbar-logo">
             <img src={gericht} alt="page logo" />
             </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
                 )}
 
             </div>
-        </navbar>
+        </nav>
     );
 }
 
